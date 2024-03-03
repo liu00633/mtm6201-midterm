@@ -1,0 +1,43 @@
+/* ************* desktop 5 ******************* */
+html{
+    font-size: 16px;
+    font-family: open sans;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.homebox{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width:100%;
+    justify-content: space-around;
+    
+}
+
+a{
+    text-decoration:none;
+    text-align: center;
+    color:black;
+}
+.topheader{
+    display: flex;
+   
+}
+.homebox{
+    flex:1;
+    padding:10px;
+}
+.logo1{
+    display:flex;
+    flex: 1;
+    
+}
+
+.floatedtext{
+    background-image: url('../images/bigbg.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
