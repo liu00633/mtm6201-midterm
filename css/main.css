@@ -8,6 +8,10 @@ html{
     position: absolute;
     left: -120px;
 }
+.skiptomain:active{
+    position:static
+    }
+
 
 img {
     width: 100%;
@@ -49,7 +53,7 @@ a{
     padding: 10px;
     color: black;
 }
-.banner h3{
+ .banner h3{
     color: grey;
 }
 h1,h3,h2,p{
@@ -151,22 +155,19 @@ span{
     text-align: center;
 }
 
-/* **************************       mobile end start desktop           *************************** */
+/* **************************       start desktop           *************************** */
 
 @media screen and (min-width: 769px) {
-    .skiptomain{
-        position: absolute;
-        left: -8px;
-        top: auto;
-        width: 1px;
-        height: 1px;    
-        /* overflow: hidden; */
-      }
+   
    .banner{
     background-image: url("../images/bigbg.jpg");
         }
     .dld{
         background-image:url("../images/end-img.jpg");
+    }
+
+    h1,.banner h3{
+        color:white;
     }
     .btns{
         display: flex;
@@ -191,11 +192,29 @@ span{
         color: #252b42;
         font-size: 20px;
     }
+    
   nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
+
+    /* **************************   create skip link tab " skip to main"                  *********************** */
+    .skiptomain{
+        position: absolute;
+        left: -35px;
+        top: auto;
+        width: 1px;
+        height: 1px;    
+        
+      }
+      .skiptomain:focus{
+        position: static;
+        width: auto;
+        height: auto;
+        
+    }
+    
 
 
     /* *********************   start grid part       *************************** */

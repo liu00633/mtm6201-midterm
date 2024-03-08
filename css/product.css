@@ -5,7 +5,8 @@ html{
 img{
   width:33.33%;
 }
-.flex1{
+.grid1{
     display:grid;
-    grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }

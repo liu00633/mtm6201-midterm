@@ -10,9 +10,25 @@
    <header>
   <h1> what we provide</h1>
    </header>
-   <section class="flex1">
+   <section class="grid1">
        <div>
-        <img  src="images/food1.jpeg" alt="img for food1" class="foodone">
+        <picture>
+            <source srcset="images/food1-408.jpeg,
+            images/food1-816 2x," media="(min-width: 1600px)" />
+    
+            <source srcset="images/food1-204.jpeg,
+            images/food1-408 2x," media="(min-width: 960px)" />
+
+            <source srcset="images/food1-204.jpeg,
+            images/food1-408.jpeg," media=" (max-width:960px)" />
+
+            <source srcset="images/food1-408.jpeg,
+            images/food1-816.jpeg 2x," media=" (max-width:1600px)" />
+            <img src="images/food1-408.jpeg" alt="brunch picture1">
+
+            </picture>
+
+    
         <h3>search your resturant</h3>
         <h5>
             Thousands of <b>bella onojie </b> users may be searching for food in your area. By partnering with Uber Eats and adding your restaurant to the platform, we can help you reach those users.
