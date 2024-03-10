@@ -1,0 +1,43 @@
+html{
+    font-size: 16px;
+    font-family: open sans;
+  }
+
+
+
+img {
+    width: 100%;
+    height: auto;
+  }
+  .logo1{
+    max-width: 150px;
+  }
+  
+
+  footer{
+    max-width: 220px;
+    margin:0 auto;
+  }
+  .material-symbols-outlined{
+    opacity:0;
+  }
+
+  /* ****************   add another animation ****************** */
+  
+
+  @keyframes riding{
+    from{
+      transform:translateX(0px)
+    }
+    to{ 
+      transform:translateX(1000px)
+    }
+   }
+  
+  #questionmark{
+    animation-name:riding;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+  }

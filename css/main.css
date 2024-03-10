@@ -92,6 +92,7 @@ p{
     display: flex;
     justify-content: center;
 }
+
 .btns{
     display: flex;
     flex-direction: column;
@@ -165,6 +166,10 @@ span{
     .dld{
         background-image:url("../images/end-img.jpg");
     }
+.banner{
+   padding: 100px;
+
+}
 
     h1,.banner h3{
         color:white;
@@ -181,6 +186,10 @@ span{
     .menu{
         position:relative; 
     }
+    .material-symbols-outlined{
+        opacity: 0;
+    }
+
     nav ul li {
         padding: 5px;
         list-style: none;
@@ -199,7 +208,7 @@ span{
         justify-content: space-between;
     }
 
-    /* **************************   create skip link tab " skip to main"                  *********************** */
+    /* **************************   create skip link tab " skip to main"        *********************** */
     .skiptomain{
         position: absolute;
         left: -35px;
@@ -214,6 +223,13 @@ span{
         height: auto;
         
     }
+    footer img{
+        width:auto;
+    }
+    footer{
+        max-width: 400px;
+        margin:0 auto;
+    }
     
 
 
@@ -222,7 +238,10 @@ span{
 .gridcontainer{
     display:grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,1fr);}
+    grid-template-rows: repeat(3,1fr);
+    justify-content:center;
+    align-items: center;
+}
     /* grid-template-areas: 
     "it1 it2"
     "it3 it4" 
