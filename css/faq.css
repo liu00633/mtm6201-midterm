@@ -6,13 +6,17 @@ html{
 
 
 img {
-    width: 100%;
+    width: 20%;
     height: auto;
   }
   .logo1{
     max-width: 150px;
   }
-  
+  .animation2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   footer{
     max-width: 220px;
@@ -25,19 +29,23 @@ img {
   /* ****************   add another animation ****************** */
   
 
-  @keyframes riding{
-    from{
-      transform:translateX(0px)
+  @keyframes jumping{
+    0%{
+      transform:scale(0.6) rotate(0)
     }
-    to{ 
-      transform:translateX(1000px)
+    50%{ 
+      transform:scale(2.5) rotate(360deg)
+    }
+    90%{
+      transform: translateY(50PX) scale(3)
     }
    }
   
   #questionmark{
-    animation-name:riding;
-    animation-duration: 1s;
-    /* animation-iteration-count: infinite; */
+    animation-name:jumping;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
   }
+  

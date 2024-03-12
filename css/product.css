@@ -54,7 +54,7 @@ footer{
 #deliveryman{
   animation-name:riding;
   animation-duration: 3s;
-  /* animation-iteration-count: infinite; */
+  animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 0.5s;
 }
