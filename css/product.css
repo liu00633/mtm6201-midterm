@@ -7,14 +7,20 @@ main{
   padding:20px
 }
 
+.container2{
+  max-width: 759px;
+  margin: 0 auto;
+}
 
 .skiptomain{
   position: absolute;
   left: -120px;
 }
-.skiptomain:active{
-  position:static
-  }
+.skiptomain:focus{
+  position: static;
+  width: auto;
+  height: auto;
+}
 
 
 img {
@@ -54,7 +60,7 @@ footer{
 #deliveryman{
   animation-name:riding;
   animation-duration: 3s;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
   animation-timing-function: ease-in-out;
   animation-delay: 0.5s;
 }

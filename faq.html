@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    
+  <a href="#main" class="skiptomain" >Skip to main part</a>
       <header class="topheader">
         <nav>
             <div class="thnomenu">
@@ -19,7 +19,7 @@
             </nav>
           </header>
           
-          <main>
+          <main class="container" id="main" role="main"></main>
             <div class="animation2">
             <h2>frequent asked question</h2>
             <div class="animation">
@@ -47,18 +47,17 @@
               <li itemprop="jobtitle">Title: founder</li>
               <li itemprop="Email">Email: Bella@gmail.com</li>
               <li itemprop="telephone">Phone: 343-000-0000</li>
-            </ul>
-            <h1>Address</h1>
-            <div itemscope itemtype="https://schema.org/Person"></div>
-              <span="name">bella onojie</span>
-                <itemprop="streetaddress">12 arbordale Rd,Ottawa.</itemprop>
-              <itemprop="postalcode">B3T 0L0</itemprop>
-            
+              <li itemprop="address" itemscope itemtype="https://schema.org/postaladdress" > 
+                <span itemprop="streetAddress">50,arbordale </span>
+    <span itemprop="addressLocality"> west nepean </span>
+    <span itemprop="addressCountry">Ottawa </span>.
+    <span itemprop="postalCode">k2g 5c8</span>
+              </li>
+            </ul>  
           </div>
 
     </main>
 
-  
       <footer>
 
         <div class="footer1">
@@ -71,9 +70,5 @@
       </div>
  
    </footer>
-
-
-   
-    
 </body>
 </html>

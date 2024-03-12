@@ -3,7 +3,18 @@ html{
     font-family: open sans;
   }
 
-
+  .skiptomain{
+    position: absolute;
+    left: -120px;
+  }
+  .skiptomain:focus{
+    position: static;
+    width: auto;
+    height: auto;
+  }
+  .container{
+    background-image: url("../images/bigbg.jpg");
+        }
 
 img {
     width: 20%;
@@ -44,7 +55,7 @@ img {
   #questionmark{
     animation-name:jumping;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
   }

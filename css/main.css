@@ -103,15 +103,14 @@ p{
 #L{
     width: 400px;
     height: 651px;
-    margin-right: -30px;
-    margin-top:30px;
-    background-color: transparent;
+    margin-right: -160px;
+    margin-top:-100px;
 }
 #R{
     width: 219px;
     height: 408px;
-    margin-left: -120px;
-    margin-top:200px;
+    margin-left: 0px;
+    margin-top:30px;
 }
 h3{
     color:#fa4a0c;
