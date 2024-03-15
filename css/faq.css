@@ -32,6 +32,7 @@ img {
   footer{
     max-width: 220px;
     margin:0 auto;
+    background-color: #fa4a0c;
   }
   .material-symbols-outlined{
     opacity:0;

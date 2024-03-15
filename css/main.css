@@ -23,11 +23,7 @@ a{
     text-align: center;
     color:black;
 }
-/* .topheader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
+
 .thnomenu{
     display: flex;
     flex-direction: row;
@@ -170,6 +166,8 @@ span{
 
 }
 
+
+
     h1,.banner h3{
         color:white;
     }
@@ -200,6 +198,14 @@ span{
         color: #252b42;
         font-size: 20px;
     }
+    nav ul li a:active{
+         color: #fa4a0c;
+        
+    }
+    nav ul li a:hover{
+        /* text-decoration: underline; */
+        color: #fa4a0c;
+   }
     
   nav{
         display: flex;
