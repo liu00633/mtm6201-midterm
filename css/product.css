@@ -7,6 +7,16 @@ main{
   padding:20px
 }
 
+a:link{
+  color: black;
+}
+a:hover{
+  color: #fa4a0c;
+}
+ a:active{
+  color: #fa4a0c;
+}
+
 .container2{
   max-width: 759px;
   margin: 0 auto;
