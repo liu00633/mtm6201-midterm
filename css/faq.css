@@ -56,7 +56,7 @@ img {
   #questionmark{
     animation-name:jumping;
     animation-duration: 3s;
-    /* animation-iteration-count: infinite; */
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
   }
