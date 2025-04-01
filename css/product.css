@@ -37,6 +37,14 @@ img {
   width: 100%;
   height: auto;
 }
+
+.grid1 img {
+  height: 200px; /* Adjust to match the other images */
+  object-fit: cover; /* Ensures images scale properly without distortion */
+  width: 100%; /* Ensures consistency */
+}
+
+
 footer img{
   width:auto;
   margin: 0 auto;
@@ -70,8 +78,8 @@ footer{
 
 #deliveryman{
   animation-name:riding;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-iteration-count: 3;
   animation-timing-function: ease-in-out;
   animation-delay: 0.5s;
 }
